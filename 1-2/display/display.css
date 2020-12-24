@@ -1,0 +1,26 @@
+.display-none {
+  display: none;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+span {
+  display: block;
+  background-color: #888888;
+}
+
+#name {
+  background-color: lightcoral;
+  width: 100px;
+  height: 400px;
+}
+
+.inline1 {
+  display: inline;
+}
+
+.inline2 {
+  display: inline-block;
+}

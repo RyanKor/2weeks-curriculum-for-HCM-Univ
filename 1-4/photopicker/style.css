@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+  padding : 2rem;
+  background-image: linear-gradient(to right, #1d3977, #5296e9);
+}
+
+body {
+  padding: 0;
+  background: #d8dfea;
+  height: 100vh;
+}
+
+.container {
+  max-width: 760px;
+  margin: auto;
+  border: white solid 3px;
+}
+
+.main-img img, .imgs img {
+  width: 100%;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: .3rem;
+  column-gap: .3rem;
+}
+
+.imgs:hover {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s ease-in
+}
+
+
