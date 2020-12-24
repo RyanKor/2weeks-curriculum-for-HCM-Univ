@@ -1,5 +1,7 @@
 # 2 Weeks Curriculms for HCM Univs with LIKELION
 
+![image](https://user-images.githubusercontent.com/40455392/103081282-3a7fbf80-460a-11eb-97d7-c26f4608162a.png)
+
 ## Coures Purpose
 
 - This course is made for beginners who want to learn programming for Vietnamese students.
